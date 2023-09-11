@@ -253,6 +253,15 @@
         "categories": "沙雕动画#沙雕穿越#沙雕",
         "cookie": ""
       }
+    },
+    {
+      "key": "csp_KungFu404",
+      "name": "🔱┃阿里设置┃",
+      "type": 3,
+      "api": "csp_KungFu404",
+      "searchable": 1,
+      "filterable": 0,
+      "jar": "./ysc.jar"
     }
   ],
   "parses": [
