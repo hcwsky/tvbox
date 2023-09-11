@@ -20,7 +20,8 @@
       "filterable": 1,
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvbox/token.txt$$$https://www.wogg.xyz/",
-      "jar": "./fty.jar"
+      "jar": "./fty.jar",
+      "timeout": 30
     },
     {
       "key": "csp_WoGG",
@@ -30,7 +31,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt$$$https://www.wogg.xyz/"
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt$$$https://www.wogg.xyz/",
+      "timeout": 30
     },
     {
       "key": "csp_Hdhive_影巢",
@@ -41,7 +43,8 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
-      "jar": "./js/ky.jar"
+      "jar": "./js/ky.jar",
+      "timeout": 30
     },
     {
       "key": "t4_wo",
@@ -50,7 +53,9 @@
       "api": "http://home.jundie.top:9520/spider/csp_Wogg",
       "searchable": 0,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"，
+      "timeout": 30
     },
     {
       "key": "荐片",
@@ -59,7 +64,8 @@
       "api": "http://home.jundie.top:9520/spider/csp_JP",
       "searchable": 0,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "timeout": 30
     },
     {
       "key": "小纸条_cli",
@@ -69,6 +75,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"，
       "timeout": 30
     },
     {
