@@ -54,7 +54,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"，
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
       "timeout": 30
     },
     {
@@ -75,7 +75,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"，
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
       "timeout": 30
     },
     {
