@@ -11,6 +11,26 @@
   ],
   "sites": [
     {
+      "key": "drpy_js_豆瓣",
+      "name": "🔱┃豆瓣搜索┃",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/drpy.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "csp_KungFu404",
+      "name": "😎┃阿里设置┃",
+      "type": 3,
+      "api": "csp_KungFu404",
+      "searchable": 1,
+      "filterable": 0,
+      "filterable": 0,
+      "jar": "./lib/alibaba.jar"
+    },
+    {
       "key": "csp_FanYY",
       "name": "🔱┃饭太硬玩偶┃",
       "type": 3,
@@ -253,17 +273,8 @@
         "categories": "沙雕动画#沙雕穿越#沙雕",
         "cookie": ""
       }
-    },
-    {
-      "key": "csp_KungFu404",
-      "name": "🔱┃阿里设置┃",
-      "type": 3,
-      "api": "csp_KungFu404",
-      "searchable": 1,
-      "filterable": 0,
-      "filterable": 0,
-      "jar": "./lib/alibaba.jar"
     }
+    
   ],
   "parses": [
     {
