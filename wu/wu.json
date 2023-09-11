@@ -19,7 +19,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt$$$https://www.wogg.xyz/",
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt$$$https://www.wogg.xyz/",
       "jar": "./fty.jar"
     },
     {
@@ -30,7 +30,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt$$$https://www.wogg.xyz/"
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt$$$https://www.wogg.xyz/"
     },
     {
       "key": "csp_Hdhive_影巢",
@@ -40,7 +40,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt",
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
       "jar": "./js/ky.jar"
     },
     {
@@ -220,7 +220,7 @@
       "api": "csp_Push",
       "searchable": 0,
       "quickSearch": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.json"
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.json"
     },
     {
       "key": "drpy_js_我的哔哩",
