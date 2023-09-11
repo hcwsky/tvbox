@@ -261,7 +261,8 @@
       "api": "csp_KungFu404",
       "searchable": 1,
       "filterable": 0,
-      "jar": "./ysc.jar"
+      "filterable": 0,
+      "jar": "./lib/alibaba.jar"
     }
   ],
   "parses": [
