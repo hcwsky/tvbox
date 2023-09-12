@@ -298,7 +298,7 @@
       "api": "csp_Push",
       "searchable": 0,
       "quickSearch": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.json""
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.json"
     },
     {
       "key": "drpy_js_我的哔哩",
