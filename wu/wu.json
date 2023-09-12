@@ -12,7 +12,7 @@
   "sites": [
     {
       "key": "drpy_js_豆瓣",
-      "name": "🔱┃豆瓣搜索┃",
+      "name": "🔱┃豆瓣[js]┃",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/drpy.js",
@@ -22,13 +22,49 @@
     },
     {
       "key": "csp_KungFu404",
-      "name": "😎┃阿里设置┃",
+      "name": "🎦┃TOKEN设置┃",
       "type": 3,
       "api": "csp_KungFu404",
+      "jar": "./lib/alibaba.jar",
       "searchable": 1,
-      "filterable": 0,
-      "filterable": 0,
-      "jar": "./lib/alibaba.jar"
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "drpy_js_新片场",
+      "name": "🔱┃新片场[js]┃",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "./lib/新片场.js"
+    },
+    {
+      "key": "drpy_js_看韩剧",
+      "name": "🔱┃看韩剧[js]┃",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/看韩剧.js"
+    },
+    {
+      "key": "drpy_js_69美剧[V2]",
+      "name": "🔱┃69美剧[V2]┃",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/69美剧[V2].js"
+    },
+    {
+      "key": "影探",
+      "name": "🔱┃影探vip┃",
+      "type": 3,
+      "playerType": "1",
+      "api": "csp_YTVIP",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "vip.lyyytv.cn",
+      "jar": "./fty.jar"
     },
     {
       "key": "csp_FanYY",
@@ -39,9 +75,8 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt$$$https://www.wogg.xyz/",
-      "jar": "./fty.jar",
-      "timeout": 30
+      "ext": "./token.txt$$$https://wogg.xyz/",
+      "jar": "./fty.jar"
     },
     {
       "key": "csp_WoGG",
@@ -51,8 +86,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt$$$https://www.wogg.xyz/",
-      "timeout": 30
+      "ext": "./token.txt$$$https://wogg.xyz/"
     },
     {
       "key": "csp_Hdhive_影巢",
@@ -62,20 +96,17 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
-      "jar": "./js/ky.jar",
-      "timeout": 30
+      "ext": "./token.txt",
+      "jar": "./js/ky.jar"
     },
     {
       "key": "t4_wo",
       "name": "🔱┃俊于玩偶[T4]┃",
       "type": 4,
-      "api": "http://home.jundie.top:9520/spider/csp_Wogg",
+      "api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=998d9d8014234faba157a57a0d769e05",
       "searchable": 0,
       "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
-      "timeout": 30
+      "filterable": 1
     },
     {
       "key": "荐片",
@@ -84,18 +115,16 @@
       "api": "http://home.jundie.top:9520/spider/csp_JP",
       "searchable": 0,
       "quickSearch": 1,
-      "filterable": 1,
-      "timeout": 30
+      "filterable": 1
     },
     {
       "key": "小纸条_cli",
       "name": "🔱┃俊于小纸条[T4]┃",
       "type": 4,
-      "api": "http://home.jundie.top:9520/spider/cli_gitCafe",
+      "api": "http://home.jundie.top:9520/spider/cli_gitCafe?sort=原画,蓝光,超清,高清&token=998d9d8014234faba157a57a0d769e05",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
       "timeout": 30
     },
     {
@@ -106,7 +135,27 @@
       "quickSearch": 1,
       "changeable": 1,
       "api": "./lib/drpy2.min.js",
-      "ext": "./lib/在线之家.js"
+      "ext": "./js/在线之家.js"
+    },
+    {
+      "key": "97tvs",
+      "name": "🔱┃高清MP4吧┃",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/97tvs.js"
+    },
+    {
+      "key": "rrdyw",
+      "name": "🔱┃人人电影网┃",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/rrdyw.js"
     },
     {
       "key": "ikanbot_open",
@@ -247,7 +296,7 @@
       "api": "csp_Push",
       "searchable": 0,
       "quickSearch": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.json"
+      "ext": "./pg.json"
     },
     {
       "key": "drpy_js_我的哔哩",
@@ -274,7 +323,6 @@
         "cookie": ""
       }
     }
-    
   ],
   "parses": [
     {
