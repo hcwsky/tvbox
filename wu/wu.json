@@ -1,5 +1,5 @@
 {
-  "wallpaper": "./bizhi/2.jpg",
+  "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "spider": "./fm.nogo.jar",
   "lives": [
     {
@@ -75,7 +75,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 0,
-      "ext": "./token.txt$$$https://wogg.xyz/",
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd$$$http://23.251.37.83:7788/",
       "jar": "./fty.jar"
     },
     {
@@ -86,7 +86,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "./token.txt$$$https://wogg.xyz/"
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd$$$http://23.251.37.83:7788/"
     },
     {
       "key": "csp_Hdhive_影巢",
@@ -96,17 +96,18 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "./token.txt",
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
       "jar": "./js/ky.jar"
     },
     {
       "key": "t4_wo",
       "name": "🔱┃俊于玩偶[T4]┃",
       "type": 4,
-      "api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=998d9d8014234faba157a57a0d769e05",
+      "api": "http://home.jundie.top:9520/spider/csp_Wogg",
       "searchable": 0,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"
     },
     {
       "key": "荐片",
@@ -121,10 +122,11 @@
       "key": "小纸条_cli",
       "name": "🔱┃俊于小纸条[T4]┃",
       "type": 4,
-      "api": "http://home.jundie.top:9520/spider/cli_gitCafe?sort=原画,蓝光,超清,高清&token=998d9d8014234faba157a57a0d769e05",
+      "api": "http://home.jundie.top:9520/spider/cli_gitCafe",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
       "timeout": 30
     },
     {
@@ -296,7 +298,7 @@
       "api": "csp_Push",
       "searchable": 0,
       "quickSearch": 0,
-      "ext": "./pg.json"
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.json""
     },
     {
       "key": "drpy_js_我的哔哩",
