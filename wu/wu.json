@@ -163,7 +163,7 @@
       "key": "ikanbot_open",
       "name": "🔱┃爱看机器人open┃",
       "type": 3,
-      "api": "./js/ikanbot_open.js",
+      "api": "./js/ikanbotcatvod_open.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
