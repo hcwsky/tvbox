@@ -31,6 +31,48 @@
       "changeable": 0
     },
     {
+      "key": "drpy_js_腾云驾雾",
+      "name": "🔱┃腾讯官方┃",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/腾云驾雾.js"
+    },
+    {
+      "key": "drpy_js_优酷",
+      "name": "🔱┃优酷官方┃",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/优酷.js"
+    },
+    {
+      "key": "drpy_js_百忙无果",
+      "name": "🔱┃芒果官方┃",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/百忙无果.js"
+    },
+    {
+      "key": "drpy_js_奇珍异兽",
+      "name": "🔱┃爱奇艺官方┃",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/奇珍异兽.js"
+    },
+    {
+      "key": "drpy_js_360影视",
+      "name": "🔱┃360影视┃",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/360影视.js"
+    },
+    {
+      "key": "drpy_js_菜狗",
+      "name": "🔱┃搜狗官方┃",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/菜狗.js"
+    },
+    {
       "key": "drpy_js_新片场",
       "name": "🔱┃新片场[js]┃",
       "type": 3,
@@ -137,7 +179,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "api": "./lib/drpy2.min.js",
-      "ext": "./js/在线之家.js"
+      "ext": "./lib/在线之家.js"
     },
     {
       "key": "97tvs",
@@ -158,15 +200,6 @@
       "changeable": 1,
       "api": "./lib/drpy2.min.js",
       "ext": "./js/rrdyw.js"
-    },
-    {
-      "key": "ikanbot_open",
-      "name": "🔱┃爱看机器人open┃",
-      "type": 3,
-      "api": "./js/ikanbot_open.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
     },
     {
       "key": "csp_Ikanbot",
@@ -321,7 +354,7 @@
       "searchable": 0,
       "changeable": 0,
       "ext": {
-        "categories": "沙雕动画#沙雕穿越#沙雕",
+        "categories": "热门#软件教程#实用教程#美食#知名UP主#沙雕动画#沙雕穿越#沙雕",
         "cookie": ""
       }
     }
