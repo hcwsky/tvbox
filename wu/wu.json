@@ -1,10 +1,6 @@
 {
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-<<<<<<< Updated upstream
-  "spider": "./fm.nogo.jar",
-=======
   "spider": "./fm.jar;md5;d2e28d65eb15a03c20cce6fb6c268701",
->>>>>>> Stashed changes
   "lives": [
     {
       "name": "咪咕直播",
@@ -21,81 +17,20 @@
   ],
   "sites": [
     {
-<<<<<<< Updated upstream
-      "key": "drpy_js_豆瓣",
-      "name": "🔱┃豆瓣[js]┃",
-=======
       "key": "豆瓣",
       "name": "💖┃幸福之家┃",
->>>>>>> Stashed changes
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/drpy.js",
       "searchable": 1,
       "quickSearch": 0,
-<<<<<<< Updated upstream
-      "changeable": 0
-=======
       "changeable": 1
->>>>>>> Stashed changes
     },
     {
       "key": "csp_KungFu404",
       "name": "🎦┃TOKEN设置┃",
       "type": 3,
       "api": "csp_KungFu404",
-<<<<<<< Updated upstream
-      "jar": "./lib/alibaba.jar",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "drpy_js_腾云驾雾",
-      "name": "🔱┃腾讯官方┃",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/腾云驾雾.js"
-    },
-    {
-      "key": "drpy_js_优酷",
-      "name": "🔱┃优酷官方┃",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/优酷.js"
-    },
-    {
-      "key": "drpy_js_百忙无果",
-      "name": "🔱┃芒果官方┃",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/百忙无果.js"
-    },
-    {
-      "key": "drpy_js_奇珍异兽",
-      "name": "🔱┃爱奇艺官方┃",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/奇珍异兽.js"
-    },
-    {
-      "key": "drpy_js_360影视",
-      "name": "🔱┃360影视┃",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/360影视.js"
-    },
-    {
-      "key": "drpy_js_菜狗",
-      "name": "🔱┃搜狗官方┃",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/菜狗.js"
-    },
-    {
-      "key": "drpy_js_新片场",
-      "name": "🔱┃新片场[js]┃",
-=======
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
@@ -139,25 +74,12 @@
     {
       "key": "libvio",
       "name": "🔱┃Libvio┃",
->>>>>>> Stashed changes
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
-<<<<<<< Updated upstream
-      "changeable": 0,
-      "ext": "./lib/新片场.js"
-    },
-    {
-      "key": "drpy_js_看韩剧",
-      "name": "🔱┃看韩剧[js]┃",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/看韩剧.js"
-=======
       "changeable": 1,
       "ext": "./lib/libvio.js"
->>>>>>> Stashed changes
     },
     {
       "key": "drpy_js_69美剧[V2]",
@@ -187,11 +109,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 0,
-<<<<<<< Updated upstream
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd$$$http://23.251.37.83:7788/",
-=======
       "ext": "http://127.0.0.1:9978/file/tvbox/token.txt$$$https://wogg.xyz/",
->>>>>>> Stashed changes
       "jar": "./fty.jar"
     },
     {
@@ -202,12 +120,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-<<<<<<< Updated upstream
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd$$$http://23.251.37.83:7788/"
-=======
       "ext": "http://127.0.0.1:9978/file/tvbox/pg.json$$$https://www.wogg.xyz/",
       "timeout": 30
->>>>>>> Stashed changes
     },
     {
       "key": "csp_Hdhive_影巢",
@@ -217,12 +131,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-<<<<<<< Updated upstream
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
-      "jar": "./js/ky.jar"
-=======
       "jar": "./fm.jar;md5;d2e28d65eb15a03c20cce6fb6c268701"
->>>>>>> Stashed changes
     },
     {
       "key": "t4_wo",
@@ -231,14 +140,9 @@
       "api": "http://home.jundie.top:9520/spider/csp_Wogg",
       "searchable": 0,
       "quickSearch": 1,
-<<<<<<< Updated upstream
-      "filterable": 1,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"
-=======
       "jar": "./jar/YSC.jar",
       "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
       "filterable": 1
->>>>>>> Stashed changes
     },
     {
       "key": "荐片",
@@ -282,19 +186,12 @@
     },
     {
       "key": "rrdyw",
-<<<<<<< Updated upstream
-      "name": "🔱┃人人电影网┃",
-=======
       "name": "🔱┃农民影视┃",
->>>>>>> Stashed changes
       "type": 3,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "api": "./lib/drpy2.min.js",
-<<<<<<< Updated upstream
-      "ext": "./js/rrdyw.js"
-=======
       "ext": "./lib/农民影视.js"
     },
     {
@@ -304,7 +201,6 @@
       "api": "csp_Ying",
       "searchable": 1,
       "changeable": 1
->>>>>>> Stashed changes
     },
     {
       "key": "毛驴影视",
@@ -490,9 +386,6 @@
       "api": "csp_Push",
       "searchable": 0,
       "quickSearch": 0,
-<<<<<<< Updated upstream
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.json"
-=======
       "ext": "http://127.0.0.1:9978/file/tvbox/pg.json"
     },
     {
@@ -504,7 +397,6 @@
       "changeable": 1,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/justlive.js"
->>>>>>> Stashed changes
     },
     {
       "key": "drpy_js_我的哔哩",
@@ -551,13 +443,8 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-<<<<<<< Updated upstream
-        "categories": "热门#软件教程#实用教程#美食#知名UP主#沙雕动画#沙雕穿越#沙雕",
-        "cookie": ""
-=======
         "categories": "热门#软件教程#实用教程#美食#健身#瑜伽#闽剧#越剧#相声小品#知名UP主#听书#沙雕动画#沙雕穿越#沙雕",
         "cookie": "DedeUserID=514459325; DedeUserID__ckMd5=71f7f2b9d8869ea2; SESSDATA=99270eae%2C1710156590%2C2d487%2A92CjD8C8U7Lus5OrlA4FBwJW5Yhwjlhy3k7Tjlnr9Ayop2pzs0K7lSQAswtmwtEjz_sxkSVkJJWktsLURlYXYyVGszdjdOS3pzWnEtTlNIWm9NQ2gza0ZySEEwdnN4UmRDX0JqbE5QY1VORkdOYnlBVXZJVkJUTVJaYml1ZmQxWTFNNlB5ZGFjdGtnIIEC; bili_jct=e4f1163ae525efcab835a2cad8174d65;"
->>>>>>> Stashed changes
       }
     }
   ],
