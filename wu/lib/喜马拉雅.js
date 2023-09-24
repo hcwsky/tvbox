@@ -7,8 +7,9 @@ var rule = {
     searchUrl: '/revision/search/main?core=album&kw=**&page=fypage&spellchecker=true&rows=20&condition=relation&device=iPhone&fq=&paidFilter=false',
     searchable: 2,
     quickSearch: 0,
-    headers: {
-        'User-Agent': 'PC_UA'
+    headers:{
+        "User-Agent":"PC_UA",
+        "Referer": "https://www.ximalaya.com",   "1&_token":"189805843&9BD1ECE0240N3B351761E4FCF85B185773000C476138B1574EA7754BBB86AD45A61806DECD3E133MF4AE4974C720890"
     },
     class_parse: '.first .channel;a&&Text;a&&href;.*/(.*?)/',
     play_parse: true,

@@ -1,30 +1,50 @@
 {
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+<<<<<<< Updated upstream
   "spider": "./fm.nogo.jar",
+=======
+  "spider": "./fm.jar;md5;d2e28d65eb15a03c20cce6fb6c268701",
+>>>>>>> Stashed changes
   "lives": [
     {
-      "name": "tvlive",
+      "name": "咪咕直播",
       "type": 0,
       "url": "./lib/tvlive.txt",
       "playerType": 1
+    },
+    {
+      "name": "4K直播",
+      "type": 0,
+      "url": "https://ghproxy.com/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPTV.m3u",
+      "playerType": 2
     }
   ],
   "sites": [
     {
+<<<<<<< Updated upstream
       "key": "drpy_js_豆瓣",
       "name": "🔱┃豆瓣[js]┃",
+=======
+      "key": "豆瓣",
+      "name": "💖┃幸福之家┃",
+>>>>>>> Stashed changes
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/drpy.js",
       "searchable": 1,
       "quickSearch": 0,
+<<<<<<< Updated upstream
       "changeable": 0
+=======
+      "changeable": 1
+>>>>>>> Stashed changes
     },
     {
       "key": "csp_KungFu404",
       "name": "🎦┃TOKEN设置┃",
       "type": 3,
       "api": "csp_KungFu404",
+<<<<<<< Updated upstream
       "jar": "./lib/alibaba.jar",
       "searchable": 1,
       "quickSearch": 0,
@@ -75,10 +95,56 @@
     {
       "key": "drpy_js_新片场",
       "name": "🔱┃新片场[js]┃",
+=======
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "jar": "./lib/alibaba.jar"
+    },
+    {
+      "key": "sp360",
+      "name": "🔱┃360影视弹幕┃",
+      "type": 3,
+      "api": "csp_Sp360",
+      "jar": "./jar/360影视.jar"
+    },
+    {
+      "key": "csp_ikanbot",
+      "name": "🔱┃爱看open┃",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "api": "./lib/ikanbot_open.js",
+      "jar": "./fm.jar;md5;d2e28d65eb15a03c20cce6fb6c268701"
+    },
+    {
+      "key": "快看",
+      "name": "🔱┃快看┃",
+      "type": 3,
+      "api": "./lib/kkys_open.js",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "./fm.jar;md5;d2e28d65eb15a03c20cce6fb6c268701"
+    },
+    {
+      "key": "廠長",
+      "name": "🔱┃廠長┃",
+      "type": 3,
+      "api": "./lib/czzy_open.js",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "./fm.jar;md5;d2e28d65eb15a03c20cce6fb6c268701"
+    },
+    {
+      "key": "libvio",
+      "name": "🔱┃Libvio┃",
+>>>>>>> Stashed changes
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
+<<<<<<< Updated upstream
       "changeable": 0,
       "ext": "./lib/新片场.js"
     },
@@ -88,6 +154,10 @@
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/看韩剧.js"
+=======
+      "changeable": 1,
+      "ext": "./lib/libvio.js"
+>>>>>>> Stashed changes
     },
     {
       "key": "drpy_js_69美剧[V2]",
@@ -117,7 +187,11 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 0,
+<<<<<<< Updated upstream
       "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd$$$http://23.251.37.83:7788/",
+=======
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt$$$https://wogg.xyz/",
+>>>>>>> Stashed changes
       "jar": "./fty.jar"
     },
     {
@@ -128,7 +202,12 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
+<<<<<<< Updated upstream
       "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd$$$http://23.251.37.83:7788/"
+=======
+      "ext": "http://127.0.0.1:9978/file/tvbox/pg.json$$$https://www.wogg.xyz/",
+      "timeout": 30
+>>>>>>> Stashed changes
     },
     {
       "key": "csp_Hdhive_影巢",
@@ -138,8 +217,12 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
+<<<<<<< Updated upstream
       "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
       "jar": "./js/ky.jar"
+=======
+      "jar": "./fm.jar;md5;d2e28d65eb15a03c20cce6fb6c268701"
+>>>>>>> Stashed changes
     },
     {
       "key": "t4_wo",
@@ -148,8 +231,14 @@
       "api": "http://home.jundie.top:9520/spider/csp_Wogg",
       "searchable": 0,
       "quickSearch": 1,
+<<<<<<< Updated upstream
       "filterable": 1,
       "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"
+=======
+      "jar": "./jar/YSC.jar",
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
+      "filterable": 1
+>>>>>>> Stashed changes
     },
     {
       "key": "荐片",
@@ -193,33 +282,39 @@
     },
     {
       "key": "rrdyw",
+<<<<<<< Updated upstream
       "name": "🔱┃人人电影网┃",
+=======
+      "name": "🔱┃农民影视┃",
+>>>>>>> Stashed changes
       "type": 3,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "api": "./lib/drpy2.min.js",
+<<<<<<< Updated upstream
       "ext": "./js/rrdyw.js"
+=======
+      "ext": "./lib/农民影视.js"
     },
     {
-      "key": "csp_Ikanbot",
-      "name": "🔱┃爱看机器人XYQ┃",
+      "key": "櫻花",
+      "name": "🔱┃櫻花动漫┃",
       "type": 3,
-      "api": "csp_Ikanbot",
+      "api": "csp_Ying",
+      "searchable": 1,
+      "changeable": 1
+>>>>>>> Stashed changes
+    },
+    {
+      "key": "毛驴影视",
+      "name": "🔱┃毛驴影视┃",
+      "type": 3,
+      "api": "csp_Maolv",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "./xyq.jar"
-    },
-    {
-      "key": "libvio",
-      "name": "🔱┃Libvio┃",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "./js/libvio.js"
+      "filterable": 1
     },
     {
       "key": "drpy_js_tzfile",
@@ -227,15 +322,6 @@
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./js/tzfile.js",
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "drpy_js_ddys",
-      "name": "🔱┃低端影视┃",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/ddys.js",
       "quickSearch": 1,
       "changeable": 1
     },
@@ -250,8 +336,65 @@
       "ext": "./js/xzys.js"
     },
     {
+      "key": "蚂蚁影视",
+      "name": "🔱┃蚂蚁影视┃",
+      "type": 3,
+      "api": "csp_Mayiys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "索尼影视",
+      "name": "🔱┃索尼影视┃",
+      "type": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "悬疑片",
+        "犯罪片",
+        "冒险片",
+        "动画片",
+        "惊悚片",
+        "奇幻片",
+        "国产剧",
+        "欧美剧",
+        "韩剧",
+        "日剧",
+        "港剧",
+        "台剧",
+        "泰剧",
+        "大陆综艺",
+        "日韩综艺",
+        "港台综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "动画片",
+        "港台动漫",
+        "海外动漫",
+        "伦理片"
+      ]
+    },
+    {
       "key": "唐人街影视",
-      "name": "🔱┃唐人街海外┃",
+      "name": "🚀┃唐人街海外┃",
       "type": 1,
       "api": "https://www.tangrenjie.tv/api.php/provide/vod/",
       "searchable": 0,
@@ -259,27 +402,33 @@
       "changeable": 1
     },
     {
-      "key": "csp_YingShi",
-      "name": "🔱┃影视海外┃",
-      "type": 3,
-      "api": "csp_YingShi",
-      "quickSearch": 1,
-      "changeable": 1,
-      "url": "https://www.yingshi.tv/"
-    },
-    {
       "key": "獨播",
-      "name": "🔱┃獨播海外┃",
+      "name": "🚀┃獨播海外┃",
       "type": 3,
       "api": "csp_XPathMacFilter",
-      "searchable": 0,
+      "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/duboku.json",
-      "jar": "./custom_spider.jar"
+      "ext": "./lib/duboku.json"
+    },
+    {
+      "key": "泥巴",
+      "name": "🚀┃泥巴海外┃",
+      "type": 3,
+      "api": "csp_NiNi",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "星星",
+      "name": "🚀┃星星海外┃",
+      "type": 3,
+      "api": "csp_Star",
+      "searchable": 1,
+      "changeable": 1
     },
     {
       "key": "量子",
-      "name": "🔱┃量子海外┃",
+      "name": "🚀┃量子海外┃",
       "type": 0,
       "searchable": 0,
       "changeable": 1,
@@ -325,13 +474,37 @@
       "timeout": 30
     },
     {
+      "key": "meow",
+      "name": "🔱┃TG喵搜┃",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/meow.js",
+      "quickSearch": 1,
+      "changeable": 1,
+      "timeout": 30
+    },
+    {
       "key": "push_agent",
       "name": "🔱┃夸克推送┃",
       "type": 3,
       "api": "csp_Push",
       "searchable": 0,
       "quickSearch": 0,
+<<<<<<< Updated upstream
       "ext": "http://127.0.0.1:9978/file/tvbox/token.json"
+=======
+      "ext": "http://127.0.0.1:9978/file/tvbox/pg.json"
+    },
+    {
+      "key": "justlive",
+      "name": "🔱┃直播合集┃",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/justlive.js"
+>>>>>>> Stashed changes
     },
     {
       "key": "drpy_js_我的哔哩",
@@ -347,15 +520,44 @@
       "ext": "./js/我的哔哩.js"
     },
     {
+      "key": "drpy_js_哔哩直播",
+      "name": "🅱️┃哔哩直播┃",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "changeable": 0,
+      "ext": "./js/哔哩直播.js"
+    },
+    {
+      "key": "drpy_js_哔哩影视",
+      "name": "🅱️┃哔哩影视┃",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "changeable": 0,
+      "ext": "./js/哔哩影视.js"
+    },
+    {
       "key": "bili_open",
-      "name": "🅱️ ┃哔哩(open)┃",
+      "name": "🅱️┃哔哩OPEN┃",
       "type": 3,
       "api": "./lib/bili_open.js",
-      "searchable": 0,
+      "searchable": 1,
       "changeable": 0,
       "ext": {
+<<<<<<< Updated upstream
         "categories": "热门#软件教程#实用教程#美食#知名UP主#沙雕动画#沙雕穿越#沙雕",
         "cookie": ""
+=======
+        "categories": "热门#软件教程#实用教程#美食#健身#瑜伽#闽剧#越剧#相声小品#知名UP主#听书#沙雕动画#沙雕穿越#沙雕",
+        "cookie": "DedeUserID=514459325; DedeUserID__ckMd5=71f7f2b9d8869ea2; SESSDATA=99270eae%2C1710156590%2C2d487%2A92CjD8C8U7Lus5OrlA4FBwJW5Yhwjlhy3k7Tjlnr9Ayop2pzs0K7lSQAswtmwtEjz_sxkSVkJJWktsLURlYXYyVGszdjdOS3pzWnEtTlNIWm9NQ2gza0ZySEEwdnN4UmRDX0JqbE5QY1VORkdOYnlBVXZJVkJUTVJaYml1ZmQxWTFNNlB5ZGFjdGtnIIEC; bili_jct=e4f1163ae525efcab835a2cad8174d65;"
+>>>>>>> Stashed changes
       }
     }
   ],
@@ -1294,29 +1496,44 @@
   ],
   "rules": [
     {
-      "name": "lz",
-      "hosts": [
-        "vip.lz",
-        "hd.lz"
+      "name": "火山嗅探广告",
+      "host": [
+        "huoshan.com"
       ],
       "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "item_id="
+      ]
+    },
+    {
+      "name": "抖音嗅探广告",
+      "host": [
+        "douyin.com"
+      ],
+      "regex": [
+        "is_play_url="
+      ]
+    },
+    {
+      "name": "极速广告",
+      "hosts": [
+        "jszy"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "极速广告备份",
+      "hosts": [
+        "jszy"
+      ],
+      "regex": [
+        "#EXTINF.*?\\s+.*?muguacdn*?\\.ts\\s+",
         "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
       ]
     },
     {
-      "name": "ff",
-      "hosts": [
-        "vip.ffzy",
-        "hd.ffzy"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
-      ]
-    },
-    {
-      "name": "bf",
+      "name": "暴風廣告",
       "hosts": [
         "bfzy",
         "s5.bfzycdn"
@@ -1327,39 +1544,40 @@
       ]
     },
     {
-      "name": "hs",
+      "name": "星星广告",
       "hosts": [
-        "huoshan.com"
+        "aws.ulivetv.net"
       ],
       "regex": [
-        "item_id="
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"
       ]
     },
     {
-      "name": "dy",
+      "name": "海外看",
       "hosts": [
-        "douyin.com"
+        "haiwaikan"
       ],
       "regex": [
-        "is_play_url="
+        "#EXTINF:(0|1|2|7\\.90).*?\\s+.*?921c07e8bfad6789.*?\\.ts\\s+"
       ]
     },
     {
-      "name": "cl",
+      "name": "磁力廣告",
       "hosts": [
-        "magnet"
+        "magnet",
+        "https"
       ],
       "regex": [
         "更多",
-        "社區",
-        "xuu",
+        "社 區",
+        "x u u",
+        "最 新",
         "最新",
-        "最新",
-        "直播",
-        "更新",
-        "社区",
+        "直 播",
+        "更 新",
+        "社 区",
         "有趣",
-        "有趣",
+        "有 趣",
         "英皇体育",
         "全中文AV在线",
         "澳门皇冠赌场",
@@ -1368,6 +1586,27 @@
         "裸聊",
         "新片首发",
         "UUE29"
+      ]
+    },
+    {
+      "name": "量子廣告",
+      "hosts": [
+        "vip.lz",
+        "hd.lz",
+        "v.cdnlz"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "非凡廣告",
+      "hosts": [
+        "vip.ffzy",
+        "hd.ffzy"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"
       ]
     }
   ],
