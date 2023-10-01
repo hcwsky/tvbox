@@ -181,24 +181,6 @@ let d=[];
 let dlist = pdfa(search_html, 'div.mainleft ul#post_container li');
 dlist.forEach(function(it){
 	let title = pdfh(it, 'div.thumbnail img&&alt').replace( /(<([^>]+)>)/ig, '');
-<<<<<<< Updated upstream
-	if (searchObj.quick === true){
-		if (false && title.includes(KEY)){
-			title = KEY;
-		}
-	}
-	let img = pd(it, 'div.thumbnail img&&src', HOST);
-	let content = pdfh(it, 'div.article div.entry_post&&Text');
-	let desc = pdfh(it, 'div.info&&span.info_date&&Text');
-	let url = pd(it, 'div.thumbnail&&a&&href', HOST);
-	d.push({
-		title:title,
-		img:img,
-		content:content,
-		desc:desc,
-		url:url
-		});
-=======
 	if (title.includes(KEY)){
 		if (searchObj.quick === true){
 			title = KEY;
@@ -215,7 +197,6 @@ dlist.forEach(function(it){
 			url:url
 			});
 	}
->>>>>>> Stashed changes
 });
 setResult(d);
 `,

@@ -40,11 +40,7 @@ let list = pdfa(html, '#primary-home ul li:has(img)');
 list.forEach(function(it) {
 	d.push({
 		title: pdfh(it, 'img&&alt'),
-<<<<<<< Updated upstream
-		desc: pdfh(it, 'div.post-info div.list-footer time.b2timeago&&Text') + '/' + pdfh(it, 'div.post-info div.list-footer a&&Text'),
-=======
 		desc: pdfh(it, 'div.post-info .post-list-cat&&Text'),
->>>>>>> Stashed changes
 		pic_url: 'http://127.0.0.1:10079/i/0/s/'+pd(it, 'img&&src', HOST),
 		url: pd(it, 'a&&href', HOST)
 	});
@@ -104,9 +100,6 @@ d.forEach(function(it) {
 `,
 
 	},
-<<<<<<< Updated upstream
-	搜索:'#primary-home ul li:has(img);img&&alt;img&&src;div.post-info div.list-fotter time.b2timeago&&Text;a&&href',
-=======
 	搜索:`js:
 //'#primary-home ul li:has(img);img&&alt;img&&src;div.post-info .post-list-cat&&Text;a&&href',
 pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
@@ -134,5 +127,4 @@ dlist.forEach(function(it){
 });
 setResult(d);
 `,
->>>>>>> Stashed changes
 }

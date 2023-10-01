@@ -156,13 +156,8 @@ let d=[];
 let dlist = pdfa(search_html, 'div#list_all li');
 dlist.forEach(function(it){
 	let title = pdfh(it, 'img.lazy&&alt');
-<<<<<<< Updated upstream
-	if (searchObj.quick === true){
-		if (false && title.includes(KEY)){
-=======
 	if (title.includes(KEY)){
 		if (searchObj.quick === true){
->>>>>>> Stashed changes
 			title = KEY;
 		}
 		let img = pd(it, 'img.lazy&&src', HOST);
