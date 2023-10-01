@@ -154,7 +154,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext":"./lib/玩偶哥哥.json",
+      "ext": "./lib/玩偶哥哥.json",
       "jar": "./xyq.jar;md5;80a3cb3f8b19c815d0dc0c1cdd06fd92"
     },
     {
@@ -181,7 +181,7 @@
       "key": "t4_wo",
       "name": "🔱┃俊于玩偶[T4]┃",
       "type": 4,
-      "api": "http://home.jundie.top:9520/spider/csp_Wogg
+      "api": "http://home.jundie.top:9520/spider/csp_Wogg",
       "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
       "searchable": 0,
       "quickSearch": 1,
