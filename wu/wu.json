@@ -158,14 +158,14 @@
       "jar": "./xyq.jar;md5;80a3cb3f8b19c815d0dc0c1cdd06fd92"
     },
     {
-      "key": "csp_WoGG",
+      "key": "csp_Wogg",
       "name": "🔱┃PG玩偶┃",
       "type": 3,
       "api": "csp_Wogg",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.json$$$https://www.wogg.xyz/",
+      "ext": "http://127.0.0.1:9978/file/tvbox/pg.json$$$https://www.wogg.xyz/",
       "timeout": 30
     },
     {
