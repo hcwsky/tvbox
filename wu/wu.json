@@ -3,16 +3,20 @@
   "spider": "./fm.jar;md5;d2e28d65eb15a03c20cce6fb6c268701",
   "lives": [
     {
-      "name": "咪咕直播",
+      "name": "高清直播",
       "type": 0,
       "url": "./lib/tvlive.txt",
-      "playerType": 1
+      "playerType": 1,
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "4K直播",
+      "name": "咪咕直播",
       "type": 0,
-      "url": "https://ghproxy.com/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPTV.m3u",
-      "playerType": 2
+      "url": "./lib/live.txt",
+      "playerType": 1,
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
   ],
   "sites": [
