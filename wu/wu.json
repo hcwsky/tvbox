@@ -3,7 +3,7 @@
   "spider": "./fm.jar;md5;d2e28d65eb15a03c20cce6fb6c268701",
   "lives": [
     {
-      "name": "高清直播",
+      "name": "初秋语•综合",
       "type": 0,
       "url": "./lib/tvlive.txt",
       "playerType": 1,
@@ -11,7 +11,7 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "咪咕直播",
+      "name": "武哥•综合",
       "type": 0,
       "url": "./lib/live.txt",
       "playerType": 1,
