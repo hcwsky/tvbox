@@ -24,7 +24,7 @@ const RKEY = 'live2cms'; // 源的唯一标识
 const VERSION = 'live2cms 20230619';
 const UA = 'Mozilla/5.0'; //默认请求ua
 const __ext = {data_dict:{}};
-const tips = `\n道长直播转点播js-当前版本${VERSION}`;
+const tips = `\n直播列表`;
 const def_pic = 'https://avatars.githubusercontent.com/u/97389433?s=120&v=4';
 
 /**
@@ -392,7 +392,7 @@ function detail(tid) { // ⛵  港•澳•台
         		vod_play_from: vod_play_from,
         		vod_play_url: vod_play_url,
         		vod_director: tips,
-        		vod_remarks: `道长直播转点播js-当前版本${VERSION}`,
+        		vod_remarks: `直播列表`,
 			}]
 		});
 	}
@@ -453,7 +453,7 @@ function detail(tid) { // ⛵  港•澳•台
         vod_play_from: vod_play_from,
         vod_play_url: vod_play_url,
         vod_director: tips,
-        vod_remarks: `道长直播转点播js-当前版本${VERSION}`,
+        vod_remarks: `直播列表`,
     };
 
     return JSON.stringify({
