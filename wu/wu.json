@@ -282,7 +282,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "api": "./lib/drpy2.min.js",
-      "ext": "./lib/EMO蓝光.js"
+      "ext": "./lib/emo蓝光.js"
     },
     {
       "key": "libvio",
