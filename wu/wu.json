@@ -59,7 +59,7 @@
       "filterable": 1,
       "changeable": 0,
       "ext": {
-        "token": "./token.txt",
+        "token": "http://127.0.0.1:9978/file/tvbox/token.txt",
         "filter": "./lib/wogg.json",
         "danmu": true
       },
@@ -118,7 +118,7 @@
       "name": "🔱┃玩偶表哥┃",
       "type": 3,
       "api": "csp_Wobg",
-      "ext": "./token.txt",
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
       "searchable": 1,
       "changeable": 1,
       "filterable": 1
@@ -314,7 +314,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 0,
-      "ext": "./token.txt$$$https://wogg.xyz/",
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt$$$https://wogg.xyz/",
       "jar": "./fty.jar;md5;e60ee56ecb22ea3575471e7dd9e0c338"
     },
     {
@@ -336,7 +336,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "./token.json$$$https://www.wogg.xyz/",
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.json$$$https://www.wogg.xyz/",
       "timeout": 30
     },
     {
@@ -352,7 +352,7 @@
       "key": "t4_wo",
       "name": "🔱┃俊于玩偶[T4]┃",
       "type": 4,
-      "api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=998d9d8014234faba157a57a0d769e05",
+      "api": "http://home.jundie.top:9520/spider/csp_Wogg",
       "searchable": 0,
       "quickSearch": 1,
       "jar": "./jar/YSC.jar",
@@ -375,7 +375,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./token.txt",
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
       "timeout": 30
     },
     {
@@ -598,7 +598,7 @@
       "api": "csp_Push",
       "searchable": 0,
       "quickSearch": 0,
-      "ext": "./pg.json"
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.json"
     },
     {
       "key": "DJ5短剧",
