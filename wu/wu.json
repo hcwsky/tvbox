@@ -1,6 +1,6 @@
 {
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-  "spider": "./fm.jar;md5;a5ad65f1f13ff36d8294ca9a5e890889",
+  "spider": "./fm.jar;md5; fc220e1f9dff8ce2ee38d155f387ca90",
   "lives": [
     {
       "name": "初秋语•综合",
@@ -14,6 +14,14 @@
       "name": "武哥•综合",
       "type": 0,
       "url": "./lib/live.txt",
+      "playerType": 1,
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "范明明•综合",
+      "type": 0,
+      "url": "https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/global.m3u",
       "playerType": 1,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -41,7 +49,7 @@
       "jar": "./lib/alibaba.jar"
     },
     {
-      "key": "Live2CMS",
+      "key": "直播转点播",
       "name": "📺┃直播转点播┃",
       "type": 3,
       "api": "./lib/live2cms.js",
@@ -51,19 +59,21 @@
       "filterable": 0
     },
     {
+      "key": "应用商店",
+      "name": "🔱┃应用商店┃",
+      "type": 3,
+      "api": "csp_Market",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/market.json",
+      "style":{"type":"rect","ratio":1}
+    },
+    {
       "key": "玩偶弹幕版",
       "name": "🔱┃玩偶哥哥弹幕版┃",
       "type": 3,
       "api": "csp_Wogg",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/tvbox/token.txt",
-        "filter": "./lib/wogg.json",
-        "danmu": true
-      },
-      "jar": "./jar/okdm.jar"
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.json$$$https://wogg.xyz/$$$1"
     },
     {
       "key": "荐片弹幕版",
@@ -71,12 +81,9 @@
       "type": 3,
       "api": "csp_Jianpian",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "jar": "./jar/okdm.jar"
+      "changeable": 1,
+      "ext": "./lib/jianpian.json$$$1",
+      "timeout": 60
     },
     {
       "key": "JOJO",
@@ -86,10 +93,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "jar": "./jar/okdm.jar"
+      "ext": {"danmu": true},
+      "timeout": 30
     },
     {
       "key": "sp360",
@@ -99,26 +104,15 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "jar": "./jar/okdm.jar"
-    },
-    {
-      "key": "jojo_open",
-      "name": "🔱┃JOJO影视open┃",
-      "type": 3,
-      "api": "./lib/jojo_open.js",
-      "searchable": 1,
-      "changeable": 1,
-      "filterable": 1
+      "ext": {"danmu": true},
+      "timeout": 30
     },
     {
       "key": "wobg",
       "name": "🔱┃玩偶表哥┃",
       "type": 3,
       "api": "csp_Wobg",
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.json$$$https://wobge.run.goorm.io$$$1",
       "searchable": 1,
       "changeable": 1,
       "filterable": 1
@@ -128,7 +122,7 @@
       "name": "🔱┃FreeOk┃",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "ext": "./lib/FreeOk.js",
+      "ext": "./lib/freeok.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -162,6 +156,16 @@
       "quickSearch": 1,
       "changeable": 1
     },
+{
+                        "key": "Mino",
+                        "name": "🔱┃Mino┃",
+                        "type": 3,
+                        "api": "csp_AppMao",
+                        "searchable": 1,
+                        "quickSearch": 1,
+                        "changeable": 1,
+                        "ext": "FbjDcUxPqpfNr0QF4QvE6sExbcpBF4MRDm4TvbCzxUxQS9bPrS+dwlqC+K21Byi2fnbN32ExknwkTyVnT4ZkO1NUAJnYhg/LOWYSnzESguc1X7n/JQ1wPh7lInAdzJ2qxzb2fKg8RZczmhg8lF/+BAMaZaqxv0MMB5dPInMBPwir$$$null$$$1"
+                },
     {
       "key": "暴風",
       "name": "🔱┃暴風┃",
@@ -205,7 +209,7 @@
       "name": "🔱┃毛 驴┃",
       "type": 3,
       "api": "csp_MLYS",
-      "jar": "./fty.jar;md5;e60ee56ecb22ea3575471e7dd9e0c338",
+      "jar": "./fty.jar;md5;b16805667428f2e36ac34a8d31af2ffe",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -219,7 +223,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "./fty.jar;md5;e60ee56ecb22ea3575471e7dd9e0c338",
+      "jar": "./fty.jar;md5;b16805667428f2e36ac34a8d31af2ffe",
       "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/json/nmys.json"
     },
     {
@@ -227,11 +231,12 @@
       "name": "🔱┃厂 长┃",
       "type": 3,
       "api": "csp_Czsapp",
+      "jar": "./fty.jar;md5;b16805667428f2e36ac34a8d31af2ffe",
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://www.cz0101.com/"
+      "ext": "https://cz01.pw/"
     },
     {
       "key": "蘑菇",
@@ -302,7 +307,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "./fty.jar;md5;e60ee56ecb22ea3575471e7dd9e0c338",
+      "jar": "./fty.jar;md5;b16805667428f2e36ac34a8d31af2ffe",
       "ext": "FbjDcUxPqpfNr0QF4QvE6sExbcpBF4MRDm4TvbCzxUxQS9bPrS+dwlqC+K21Byi2fnbN32ExknwkTyVnT4ZkO1NUAJnYhg/LOWYSnzESguc1X7n/JQ1wPh7lInAdzJ2qxzb2fKg8RZczmhg8lF/+BAMaZaqxv0MMB5dPInMBPwir"
     },
     {
@@ -315,7 +320,7 @@
       "filterable": 1,
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvbox/token.txt$$$https://wogg.xyz/",
-      "jar": "./fty.jar;md5;e60ee56ecb22ea3575471e7dd9e0c338"
+      "jar": "./fty.jar;md5;b16805667428f2e36ac34a8d31af2ffe"
     },
     {
       "key": "csp_XYQHikerAL_玩偶哥哥",
@@ -329,22 +334,33 @@
       "jar": "./xyq.jar;md5;80a3cb3f8b19c815d0dc0c1cdd06fd92"
     },
     {
-      "key": "csp_Wogg",
-      "name": "🔱┃PG玩偶┃",
-      "type": 3,
-      "api": "csp_Wogg",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.json$$$https://www.wogg.xyz/",
-      "timeout": 30
-    },
-    {
       "key": "csp_Hdhive_影巢",
       "name": "🔱┃影巢阿里┃",
       "type": 3,
       "api": "csp_Hdhive",
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.json$$$null$$$1",
       "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "4KHDR",
+      "name": "🔱┃ 4KHDR ┃",
+      "type": 3,
+      "api": "csp_FourKHDR",
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.json$$$./4khdr.txt$$$1",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "timeout": 60
+    },
+    {
+      "key": "皮皮虾资源",
+      "name": "🔱┃ 皮皮虾资源 ┃",
+      "type": 3,
+      "api": "csp_Ppxzy",
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.json$$$https://ppxzy.net/$$$null$$$1",
+      "filterable": 1,
       "quickSearch": 1,
       "changeable": 1
     },
@@ -355,7 +371,6 @@
       "api": "http://home.jundie.top:9520/spider/csp_Wogg",
       "searchable": 0,
       "quickSearch": 1,
-      "jar": "./jar/YSC.jar",
       "filterable": 1
     },
     {
@@ -407,11 +422,11 @@
       "filterable": 1
     },
     {
-      "key": "drpy_js_tzfile",
-      "name": "🔱┃团长影视┃",
+      "key": "团长资源",
+      "name": "🔱┃团长资源┃",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/tzfile.js",
+      "api": "csp_TZFile",
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.json$$$null$$$1",
       "quickSearch": 1,
       "changeable": 1
     },
@@ -419,11 +434,12 @@
       "key": "drpy_js_校长影视",
       "name": "🔱┃校长影视┃",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "csp_XiaoZhang",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "./lib/xzys.js"
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.json$$$null$$$1",
+      "timeout": 30
     },
     {
       "key": "蚂蚁影视",
@@ -640,8 +656,39 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
+      "playerType": 1,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/justlive.js"
+    },
+    {
+      "key": "ss直播",
+      "name": "💖┃SS直播┃",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/sszb.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 1
+    },
+    {
+      "key": "huya",
+      "name": "🐯｜虎牙直播｜",
+      "type": 3,
+      "playerType": 1,
+      "api": "./lib/huya_open.js",
+      "ext": {
+        "categories": "音乐#王者荣耀#网游竞技#综合手游#科技#旅游#娱乐天地#一起看#颜值#二次元#星秀#原创#单机热游"
+      }
+    },
+    {
+      "key": "douyu",
+      "name": "🐟｜斗鱼直播｜",
+      "type": 3,
+      "playerType": 1,
+      "api": "./lib/douyu_open.js",
+      "ext": {
+        "categories": "热门手游#王者荣耀#娱乐推荐#颜值#二次元#星秀#音乐#正能量#原创IP#热门游戏#主机游戏#怀旧游戏"
+      }
     },
     {
       "key": "88js",
@@ -702,7 +749,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "categories": "热门#软件教程#实用教程#美食#健身#瑜伽#闽剧#越剧#相声小品#知名UP主#听书#沙雕动画#沙雕穿越#沙雕",
+        "categories": "热门#软件教程#同步课堂#实用教程#美食#健身#瑜伽#闽剧#越剧#相声小品#知名UP主#听书#沙雕动画#沙雕穿越#沙雕",
         "cookie": "DedeUserID=514459325; DedeUserID__ckMd5=71f7f2b9d8869ea2; SESSDATA=99270eae%2C1710156590%2C2d487%2A92CjD8C8U7Lus5OrlA4FBwJW5Yhwjlhy3k7Tjlnr9Ayop2pzs0K7lSQAswtmwtEjz_sxkSVkJJWktsLURlYXYyVGszdjdOS3pzWnEtTlNIWm9NQ2gza0ZySEEwdnN4UmRDX0JqbE5QY1VORkdOYnlBVXZJVkJUTVJaYml1ZmQxWTFNNlB5ZGFjdGtnIIEC; bili_jct=e4f1163ae525efcab835a2cad8174d65;"
       }
     },
