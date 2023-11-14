@@ -219,7 +219,7 @@
             "key": "FreeOk",
             "name": "🔱┃FreeOk┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/freeok.js",
             "searchable": 1,
             "quickSearch": 1,
@@ -229,7 +229,7 @@
             "key": "91Free",
             "name": "🔱┃91Free┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/91free.js",
             "searchable": 1,
             "quickSearch": 1,
@@ -249,7 +249,7 @@
             "key": "哔哩兔",
             "name": "🔱┃哔哩兔┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/哔哩兔.js",
             "searchable": 1,
             "quickSearch": 1,
@@ -267,9 +267,9 @@
         },
         {
             "key": "腾讯视频",
-            "name": "🔱┃腾讯视频官方┃",
+            "name": "🔱┃腾讯视频┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/tengxun.js",
             "searchable": 1,
             "quickSearch": 1,
@@ -277,9 +277,9 @@
         },
         {
             "key": "youku",
-            "name": "🔱┃优酷视频官方┃",
+            "name": "🔱┃优酷视频┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/youku.js",
             "searchable": 1,
             "quickSearch": 1,
@@ -287,9 +287,9 @@
         },
         {
             "key": "aiqiyi",
-            "name": "🔱┃爱奇艺官方┃",
+            "name": "🔱┃爱奇艺视频┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/aiqiyi.js",
             "searchable": 1,
             "quickSearch": 1,
@@ -297,9 +297,9 @@
         },
         {
             "key": "manguo",
-            "name": "🔱┃芒果TV官方┃",
+            "name": "🔱┃芒果TV┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/mangguo.js",
             "searchable": 1,
             "quickSearch": 1,
@@ -327,7 +327,7 @@
             "key": "ikanbot2",
             "name": "🔱┃爱 看┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/ikanbot2.js",
             "searchable": 1,
             "quickSearch": 1,
@@ -337,7 +337,7 @@
             "key": "快看",
             "name": "🔱┃快 看┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/快看.js",
             "searchable": 1,
             "quickSearch": 1,
@@ -384,7 +384,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/蘑菇.js"
         },
         {
@@ -394,7 +394,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/影探[V2].js"
         },
         {
@@ -412,7 +412,7 @@
             "key": "鑫鑫[V2]",
             "name": "🔱┃鑫 鑫┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/鑫鑫[V2].js",
             "quickSearch": 1,
             "changeable": 0
@@ -421,7 +421,7 @@
             "key": "爱迪[V2]",
             "name": "🔱┃爱 迪┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/爱迪[V2].js",
             "quickSearch": 1,
             "changeable": 0
@@ -430,7 +430,7 @@
             "key": "映迷[V2]",
             "name": "🔱┃映 迷┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/映迷[V2].js",
             "quickSearch": 1,
             "changeable": 0
@@ -439,7 +439,7 @@
             "key": "佳靓[V2]",
             "name": "🔱┃佳 靓┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/佳靓[V2].js",
             "quickSearch": 1,
             "changeable": 0
@@ -448,7 +448,7 @@
             "key": "咕噜[V2]",
             "name": "🔱┃咕 噜┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/咕噜[V2].js",
             "quickSearch": 1,
             "changeable": 0
@@ -457,7 +457,7 @@
             "key": "速看100[V2]",
             "name": "🔱┃速看100┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/速看100[V2].js",
             "quickSearch": 1,
             "changeable": 0
@@ -469,7 +469,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/97tvs.js"
         },
         {
@@ -479,14 +479,14 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/emo蓝光.js"
         },
         {
             "key": "libvio",
             "name": "🔱┃Libvio┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
@@ -587,7 +587,7 @@
             "key": "曲奇影视",
             "name": "🔱┃曲奇影视┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/曲奇影视[V2].js",
             "quickSearch": 1,
             "changeable": 0
@@ -596,7 +596,7 @@
             "key": "思古影视[V2]",
             "name": "🔱┃思古影视┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/思古影视[V2].js",
             "quickSearch": 1,
             "changeable": 0
@@ -605,7 +605,7 @@
             "key": "落攻阁影视[V2]",
             "name": "🔱┃落攻阁影视┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/落攻阁影视[V2].js",
             "quickSearch": 1,
             "changeable": 0
@@ -669,7 +669,7 @@
             "key": "大米星球[V2]",
             "name": "🔱┃大米星球┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/大米星球[V2].js",
             "quickSearch": 1,
             "changeable": 0
@@ -678,7 +678,7 @@
             "key": "奈飞狗[V2]",
             "name": "🔱┃奈飞狗┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/奈飞狗[V2].js",
             "quickSearch": 1,
             "changeable": 0
@@ -687,7 +687,7 @@
             "key": "北极狐[V2]",
             "name": "🔱┃北极狐┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/北极狐[V2].js",
             "quickSearch": 1,
             "changeable": 0
@@ -696,7 +696,7 @@
             "key": "cokemv[V2]",
             "name": "🔱┃COKEMV┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/cokemv[V2].js",
             "quickSearch": 1,
             "changeable": 0
@@ -705,7 +705,7 @@
             "key": "555电影[V2]",
             "name": "🔱┃555电影[V2]┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/555电影[V2].js",
             "quickSearch": 1,
             "changeable": 0
@@ -714,7 +714,7 @@
             "key": "EMO蓝光[V2]",
             "name": "🔱┃EMO蓝光[V2]┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/EMO蓝光[V2].js",
             "quickSearch": 1,
             "changeable": 0
@@ -723,7 +723,7 @@
             "key": "UM电影[V2]",
             "name": "🔱┃UM电影[V2]┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/UM电影[V2].js",
             "quickSearch": 1,
             "changeable": 0
@@ -796,7 +796,7 @@
             "key": "drpy_js_yyets",
             "name": "🔎┃人人影视搜┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/yyets.js",
             "quickSearch": 1,
             "changeable": 0
@@ -805,7 +805,7 @@
             "key": "drpy_js_KKPANS",
             "name": "🔎┃KK盘夸克┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/kkpans.js",
             "quickSearch": 1,
             "changeable": 1,
@@ -815,7 +815,7 @@
             "key": "drpy_js_愛盤搜",
             "name": "🔎┃爱盘搜夸克┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/aipanso.js",
             "quickSearch": 1,
             "changeable": 1,
@@ -825,7 +825,7 @@
             "key": "drpy_js_趣盤搜",
             "name": "🔎┃趣盘搜夸克┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/funletu.js",
             "quickSearch": 1,
             "changeable": 1,
@@ -835,7 +835,7 @@
             "key": "meow",
             "name": "🔎┃TG喵搜┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/meow.js",
             "quickSearch": 1,
             "changeable": 1,
@@ -891,14 +891,14 @@
             "quickSearch": 1,
             "changeable": 1,
             "playerType": 1,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/justlive.js"
         },
         {
             "key": "ss直播",
             "name": "💖┃SS直播┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/sszb.js",
             "searchable": 1,
             "quickSearch": 0,
@@ -928,7 +928,7 @@
             "key": "88js",
             "name": "⚽ ┃88看球┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "ext": "./lib/88看球.js",
             "style": {
                 "type": "rect",
@@ -942,7 +942,7 @@
             "key": "drpy_js_我的哔哩",
             "name": "🅱️┃哔哩合集┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "searchable": 0,
             "changeable": 0,
             "style": {
@@ -955,7 +955,7 @@
             "key": "drpy_js_哔哩直播",
             "name": "🅱️┃哔哩直播┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -967,7 +967,7 @@
             "key": "drpy_js_哔哩影视",
             "name": "🅱️┃哔哩影视┃",
             "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+            "api": "./lib/drpy2.min.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
