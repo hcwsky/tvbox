@@ -13,12 +13,32 @@
       "name": "🐹应用多多"
     },
     {
-      "url": "https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json",
       "name": "🐹香雅情（高天流云）"
     },
     {
-      "url": "http://我不是.肥猫.love:63/接口禁止贩卖",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+      "name": "🐹道长（高天流云）"
+    },
+    {
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/0825.json",
+      "name": "🐹PG（高天流云）"
+    },
+    {
+      "url": "http://肥猫.love",
       "name": "🐹肥猫"
+    },
+    {
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json",
+      "name": "🐹蜂蜜"
+    },
+    {
+      "url": "https://codeberg.org/AK47/drpy-js/raw/branch/main/js.json",
+      "name": "🐹猫抓"
+    },
+    {
+      "url": "http://xhww.fun:63/小米/DEMO.json",
+      "name": "🐹小米"
     },
     {
       "url": "http://weixine.net/ysc.json",
@@ -29,20 +49,16 @@
       "name": "🐹荷城茶秀"
     },
     {
+      "url": "http://tv.nxog.top/m/111.php?ou=%E6%AC%A7%E6%AD%8C&mz=index2&xl=&jar=index2",
+      "name": "🐹欧歌线路"
+    },
+    {
+      "url": "https://jihulab.com/bh666/YGBH/-/raw/main/ygbox.json",
+      "name": "🐹月光宝盒"
+    },
+    {
       "url": "http://itvbox.cc/tvbox/云星日记/1.m3u8",
       "name": "🐹云星日记"
-    },
-    {
-      "url": "http://xhww.fun:63/小米/DEMO.json",
-      "name": "🐹小米"
-    },
-    {
-      "url": "https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
-      "name": "🐹道长（高天流云）"
-    },
-    {
-      "url": "https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/0825.json",
-      "name": "🐹PG（高天流云）"
     },
     {
       "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
@@ -53,7 +69,7 @@
       "name": "🐹私人库2在线"
     },
     {
-      "url": "https://ghproxy.com/https://raw.githubusercontent.com/gitbox520/gao/master/js1.json",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gitbox520/gao/master/js1.json",
       "name": "🐹私人库3在线"
     }
 
