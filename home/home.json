@@ -1,7 +1,7 @@
 {
     "wallpaper": "http://我不是.肥猫.love:63/ppic/feimao.php",
     "warningText": "♥弱水三千,只取一瓢♥",
-    "spider": "./fm.jar;md5;0b91b3fad7a6951f366edc8645d9a227",
+    "spider": "./fm.jar;md5;577e6f45363dd5e544dc2fb40f375750",
     "lives": [
         {
             "name": "幸福之家•综合",
@@ -436,29 +436,11 @@
             "changeable": 0
         },
         {
-            "key": "佳靓[V2]",
-            "name": "🔱┃佳 靓┃",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./lib/佳靓[V2].js",
-            "quickSearch": 1,
-            "changeable": 0
-        },
-        {
             "key": "咕噜[V2]",
             "name": "🔱┃咕 噜┃",
             "type": 3,
             "api": "./lib/drpy2.min.js",
             "ext": "./lib/咕噜[V2].js",
-            "quickSearch": 1,
-            "changeable": 0
-        },
-        {
-            "key": "速看100[V2]",
-            "name": "🔱┃速看100┃",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./lib/速看100[V2].js",
             "quickSearch": 1,
             "changeable": 0
         },
@@ -1111,7 +1093,138 @@
                     "哔哩"
                 ]
             }
+        },
+            {
+      "name": "幸福之家3号",
+      "type": 0,
+      "url": "https://jx.777jiexi.com/player/?url="
+    },
+    {
+      "name": "幸福之家4号",
+      "type": 0,
+      "url": "https://jx.jsonplayer.com/player/?url="
+    },
+    {
+      "name": "幸福之家5号",
+      "type": 0,
+      "url": "https://jx.zhanlangbu.com/?url="
+    },
+    {
+      "name": "幸福之家6号",
+      "type": 0,
+      "url": "https://okjx.cc/?url="
+    },
+    {
+      "name": "幸福之家7号",
+      "type": 0,
+      "url": "https://jx.bozrc.com:4433/player/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "leshi",
+          "LS",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ],
+        "header": {
+          "User-Agent": ""
         }
+      }
+    },
+    {
+      "name": "幸福之家8号",
+      "type": 0,
+      "url": "https://blbfq.f3322.net/player/analysis.php?v=",
+      "ext": {
+        "flag": [
+          "qiyi",
+          "qq",
+          "letv",
+          "sohu",
+          "youku",
+          "mgtv",
+          "bilibili",
+          "wasu",
+          "xigua",
+          "1905"
+        ]
+      }
+    },
+    {
+      "name": "幸福之家9号",
+      "type": 0,
+      "url": "https://ksksl.codjx.com/?url="
+    },
+    {
+      "name": "幸福之家10号",
+      "type": 0,
+      "url": "https://byg.ziqj5.shop/?url="
+    },
+    {
+      "name": "幸福之家11号",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url="
+    },
+    {
+      "name": "幸福之家12号",
+      "type": 0,
+      "url": "https://chaxun.truechat365.com/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "iqiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
+      }
+    },
+    {
+      "name": "幸福之家13号",
+      "type": 0,
+      "url": "http://vip.26db.cn/g/?url="
+    },
+    {
+      "name": "幸福之家14号",
+      "type": 0,
+      "url": "https://jx.m3u8.pw/?url="
+    },
+    {
+      "name": "幸福之家15号",
+      "type": 0,
+      "url": "https://play.86516.tk/OKPlayer/?url="
+    },
+    {
+      "name": "幸福之家16号",
+      "type": 0,
+      "url": "https://h5.freejson.xyz/player/?url="
+    }
     ],
     "flags": [
         "youku",
