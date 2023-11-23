@@ -80,7 +80,7 @@
             "filterable": 1,
             "changeable": 0,
             "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+fhd|auto|4k",
-            "jar": "./duo.jar"
+            "jar": "./fty.jar"
         },
         {
             "key": "玩偶弹幕版",
