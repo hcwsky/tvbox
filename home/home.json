@@ -80,7 +80,7 @@
             "filterable": 1,
             "changeable": 0,
             "ext": "http://127.0.0.1:9978/file/tvbox/token.txt$$$https://wogg.xyz/$$$弹",
-            "jar": "./fty.jar;md5;a9185ec02828f91eea15d086122a2d34"
+            "jar": "./duo.jar"
         },
         {
             "key": "玩偶弹幕版",
