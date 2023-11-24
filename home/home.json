@@ -861,16 +861,6 @@
             "ext": "./lib/justlive.js"
         },
         {
-            "key": "ss直播",
-            "name": "💖┃SS直播┃",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./lib/sszb.js",
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 1
-        },
-        {
             "key": "huya",
             "name": "🐯｜虎牙直播｜",
             "type": 3,
