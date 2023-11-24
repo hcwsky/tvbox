@@ -1,7 +1,7 @@
 {
   "urls": [
     {
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/home.json",
+      "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/home.json",
       "name": "🏠幸福之家"
     },
     {
@@ -33,24 +33,8 @@
       "name": "🐹小米在线"
     },
     {
-      "url": "https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+      "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
       "name": "🐹高天道长在线"
-    },
-    {
-      "url": "https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/0825.json",
-      "name": "🐹PG在线"
-    },
-    {
-      "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
-      "name": "🐹私人库1在线"
-    },
-    {
-      "url": "https://xhdwc.tk/0.json",
-      "name": "🐹私人库2在线"
-    },
-    {
-      "url": "https://ghproxy.com/https://raw.githubusercontent.com/gitbox520/gao/master/js1.json",
-      "name": "🐹私人库3在线"
     }
 
   ]
