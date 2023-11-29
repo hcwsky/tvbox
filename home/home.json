@@ -127,10 +127,9 @@
         },
         {
             "key": "sp360",
-            "name": "🔱┃360影视弹幕版┃",
+            "name": "🔱┃360影视┃",
             "type": 3,
             "api": "csp_Sp360",
-            "jar": "./jar/okdm.jar",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
@@ -141,7 +140,7 @@
         },
         {
             "key": "csp_Jojo",
-            "name": "🔱┃JOJO影视弹幕版┃",
+            "name": "🔱┃JOJO影视┃",
             "type": 3,
             "api": "csp_Jojo",
             "searchable": 1,
