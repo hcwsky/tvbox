@@ -1016,7 +1016,7 @@
     "parses": [
     {
       "name": "幸福之家1号",
-      "type": 1,
+      "type": 0,
       "url": "https://jx.xmflv.com/?url=",
       "ext": {
         "flag": [
