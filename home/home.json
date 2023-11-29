@@ -83,21 +83,6 @@
             "jar": "./fty.jar"
         },
         {
-            "key": "玩偶弹幕版",
-            "name": "🔱┃玩偶哥哥弹幕版┃",
-            "type": 3,
-            "api": "csp_Wogg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "jar": "./jar/ok1129.png",
-            "ext": {
-                "filter": "./lib/wogg.json",
-                "token": "http://127.0.0.1:9978/file/tvbox/token.txt",
-                "danmu": true
-            }
-        },
-        {
             "key": "PG玩偶弹幕版",
             "name": "🔱┃PG玩偶弹幕版┃",
             "type": 3,
@@ -109,16 +94,14 @@
             "timeout": 30
         },
         {
-            "key": "csp_XYQHikerAL_玩偶哥哥",
-            "name": "🔱┃香雅情玩偶┃",
+            "key": "wobg",
+            "name": "🔱┃玩偶表哥弹幕版┃",
             "type": 3,
-            "api": "csp_XYQHikerAL",
+            "api": "csp_Wobg",
+            "ext": "http://127.0.0.1:9978/file/tvbox/token.json$$$https://wobge.run.goorm.io$$$1",
             "quickSearch": 1,
             "changeable": 1,
-            "filterable": 1,
-            "filterable": 1,
-            "ext": "./lib/玩偶哥哥.json",
-            "jar": "./xyq.jar"
+            "filterable": 1
         },
         {
             "key": "csp_Hdhive_影巢",
@@ -155,16 +138,6 @@
                 "danmu": true
             },
             "timeout": 30
-        },
-        {
-            "key": "wobg",
-            "name": "🔱┃玩偶表哥弹幕版┃",
-            "type": 3,
-            "api": "csp_Wobg",
-            "ext": "http://127.0.0.1:9978/file/tvbox/token.json$$$https://wobge.run.goorm.io$$$1",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1
         },
         {
             "key": "csp_Jojo",
