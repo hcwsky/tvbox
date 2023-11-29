@@ -742,7 +742,7 @@
             "changeable": 0
         },
         {
-            "key": "唐人街影视",
+            "key": "唐人街影视海外",
             "name": "🚀┃唐人街海外┃",
             "type": 1,
             "api": "https://www.tangrenjie.tv/api.php/provide/vod/",
@@ -751,7 +751,7 @@
             "changeable": 1
         },
         {
-            "key": "獨播",
+            "key": "獨播海外",
             "name": "🚀┃獨播海外┃",
             "type": 3,
             "api": "csp_XPathMacFilter",
@@ -760,7 +760,7 @@
             "ext": "./lib/duboku.json"
         },
         {
-            "key": "泥巴",
+            "key": "泥巴海外",
             "name": "🚀┃泥巴海外┃",
             "type": 3,
             "api": "csp_NiNi",
@@ -768,7 +768,7 @@
             "changeable": 1
         },
         {
-            "key": "星星",
+            "key": "星星海外",
             "name": "🚀┃星星海外┃",
             "type": 3,
             "api": "csp_Star",
@@ -776,7 +776,7 @@
             "changeable": 1
         },
         {
-            "key": "量子",
+            "key": "量子海外",
             "name": "🚀┃量子海外┃",
             "type": 0,
             "searchable": 0,
