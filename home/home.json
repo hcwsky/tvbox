@@ -84,21 +84,21 @@
         },
         {
             "key": "PG玩偶弹幕版",
-            "name": "🔱┃PG玩偶弹幕版┃",
+            "name": "🔱┃PG玩偶哥哥┃",
             "type": 3,
             "api": "csp_Wogg",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
-            "ext": "http://127.0.0.1:9978/file/tvbox/token.json$$$http://wogg.xyz/$$$null$$$1",
+            "ext": "http://127.0.0.1:9978/file/tvbox/token.json$$$http://wogg.xyz/$$$null$$$null",
             "timeout": 30
         },
         {
             "key": "wobg",
-            "name": "🔱┃玩偶表哥弹幕版┃",
+            "name": "🔱┃玩偶表哥┃",
             "type": 3,
             "api": "csp_Wobg",
-            "ext": "http://127.0.0.1:9978/file/tvbox/token.json$$$https://wobge.run.goorm.io$$$1",
+            "ext": "http://127.0.0.1:9978/file/tvbox/token.json$$$https://wobge.run.goorm.io$$$null",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1
