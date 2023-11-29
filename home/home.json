@@ -194,16 +194,16 @@
             "ext": "FbjDcUxPqpfNr0QF4QvE6sExbcpBF4MRDm4TvbCzxUxQS9bPrS+dwlqC+K21Byi2fnbN32ExknwkTyVnT4ZkO1NUAJnYhg/LOWYSnzESguc1X7n/JQ1wPh7lInAdzJ2qxzb2fKg8RZczmhg8lF/+BAMaZaqxv0MMB5dPInMBPwir$$$null$$$1"
         },
         {
-      "key": "sp360",
-      "name": "🔱┃360影视┃",
-      "type": 3,
-      "api": "csp_Sp360",
-      "jar": "./ok.jar;md5;D59936A6BF2200623700FA5AB9D852CF",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "danmu": true
+            "key": "sp360",
+            "name": "🔱┃360影视┃",
+            "type": 3,
+            "api": "csp_Sp360",
+            "jar": "./ok.png;md5;D59936A6BF2200623700FA5AB9D852CF",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                      "danmu": true
                 }
         },
         {
