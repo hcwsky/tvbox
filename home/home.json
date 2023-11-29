@@ -36,7 +36,7 @@
             "searchable": 0,
             "filterable": 0,
             "changeable": 0,
-            "jar": "./lib/alibaba.jar"
+            "jar": "./lib/alibaba.jar;md5;332d0e5a28640ee88589390ad4a23a39"
         },
         {
             "key": "直播转点播",
@@ -80,7 +80,7 @@
             "filterable": 1,
             "changeable": 0,
             "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+fhd|auto|4k$$$http://wogg.xyz/",
-            "jar": "./fty.jar"
+            "jar": "./fty.jar;md5;ea2690fc66083afe1431071968e60395"
         },
         {
             "key": "PG玩偶弹幕版",
