@@ -90,7 +90,7 @@
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
-            "jar": "./jar/okdm.jar",
+            "jar": "./jar/ok1129.png",
             "ext": {
                 "filter": "./lib/wogg.json",
                 "token": "http://127.0.0.1:9978/file/tvbox/token.txt",
