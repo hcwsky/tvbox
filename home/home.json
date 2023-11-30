@@ -78,7 +78,7 @@
             "changeable": 1,
             "filterable": 1,
             "changeable": 0,
-            "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+fhd|auto|4k$$$弹",
+            "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+auto|fhd|4k$$$弹",
             "jar": "./fty.jar;md5;ea2690fc66083afe1431071968e60395"
         },
         {
