@@ -78,7 +78,7 @@
             "changeable": 1,
             "filterable": 1,
             "changeable": 0,
-            "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+fhd|auto|4k$$$https://api.wogg.xyz",
+            "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+fhd|auto|4k$$$弹",
             "jar": "./fty.jar;md5;ea2690fc66083afe1431071968e60395"
         },
         {
@@ -89,7 +89,7 @@
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
-            "ext": "http://127.0.0.1:9978/file/tvbox/token.json$$$https://api.wogg.xyz$$$null$$$null",
+            "ext": "http://127.0.0.1:9978/file/tvbox/token.json$$$https://api.wogg.xyz$$$null$$$1",
             "timeout": 30
         },
         {
