@@ -78,7 +78,7 @@
             "changeable": 1,
             "filterable": 1,
             "changeable": 0,
-            "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+auto|fhd|4k$$$弹",
+            "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+auto|fhd|4k",
             "jar": "./fty.jar;md5;ea2690fc66083afe1431071968e60395"
         },
         {
@@ -97,7 +97,7 @@
             "name": "🔱┃玩偶表哥┃",
             "type": 3,
             "api": "csp_Wobg",
-            "ext": "http://127.0.0.1:9978/file/tvbox/token.json$$$https://wobge.run.goorm.io$$$null",
+            "ext": "http://127.0.0.1:9978/file/tvbox/token.json$$$https://wobge.run.goorm.io$$$1",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1
