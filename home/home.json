@@ -290,7 +290,7 @@
             "name": "🔱┃360影视┃",
             "type": 3,
             "api": "./lib/drpy2.min.js",
-            "ext": "./lib/360.js",
+            "ext": "./lib/360影视.js",
             "searchable": 1,
             "filterable": 1,
             "changeable": 1
