@@ -289,14 +289,11 @@
             "key": "sp360",
             "name": "🔱┃360影视┃",
             "type": 3,
-            "api": "csp_Sp360",
-            "jar": "./ok.png;md5;D59936A6BF2200623700FA5AB9D852CF",
+            "api": "./lib/drpy2.min.js",
+            "ext": "./lib/360.js",
             "searchable": 1,
             "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                      "danmu": true
-                }
+            "changeable": 1
         },
         {
             "key": "腾讯视频",
