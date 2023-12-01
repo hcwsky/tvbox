@@ -89,7 +89,7 @@
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
-            "ext": "http://127.0.0.1:9978/file/tvbox/token.json$$$https://api.wogg.xyz$$$null$$$1",
+            "ext": "http://127.0.0.1:9978/file/tv/token.json$$$https://api.wogg.xyz$$$null$$$1",
             "timeout": 30
         },
         {
