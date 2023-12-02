@@ -1,6 +1,7 @@
 {
     "spider": "https://jihulab.com/happyhome/home/-/raw/main/pg.jar;md5;08c819ceef385112c09698dff801e653",
     "wallpaper": "https://xhdwc.tk/api/img.php",
+    "warningText": "幸福之家提醒您：接口已经更新，请刷新后再使用。",
     "lives": [
         {
             "name": "幸福之家•综合",
@@ -1493,5 +1494,5 @@
         "cdnjs.hnfenxun.com",
         "cms.qdwght.com"
     ]
-      "warningText": "幸福之家提醒您：接口已经更新，请刷新后再使用。",
+
 }
