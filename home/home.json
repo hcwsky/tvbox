@@ -843,7 +843,7 @@
         },
         {
             "key": "push_agent",
-            "name": "👉┃夸克推送┃",
+            "name": "🍭┃夸克推送┃",
             "type": 3,
             "api": "csp_Push",
             "searchable": 0,
