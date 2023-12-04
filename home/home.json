@@ -1,5 +1,5 @@
 {
-    "spider": "https://jihulab.com/happyhome/home/-/raw/main/pg.jar;md5;08c819ceef385112c09698dff801e653",
+    "spider": "https://jihulab.com/happyhome/home/-/raw/main/pg.jar;md5;1526e714b8aa101dcd78060548871e24",
     "wallpaper": "https://xhdwc.tk/api/img.php",
     "warningText": "幸福之家提醒您：接口已经更新，请刷新后再使用。",
     "lives": [
@@ -28,16 +28,19 @@
             "type": 3,
             "api": "csp_Local"
         },
-        {
-            "key": "TOKEN设置",
-            "name": "🚧┃TOKEN设置┃",
-            "type": 3,
-            "api": "csp_KungFu404",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "jar": "https://jihulab.com/happyhome/home/-/raw/main/lib/alibaba.jar;md5;332d0e5a28640ee88589390ad4a23a39"
-        },
+     	{
+			"key": "配置中心",
+			"name": "🚧配置中心",
+			"type": 3,
+			"api": "csp_Config",
+			"searchable": 0,
+			"changeable": 0,
+			"style": {
+				"type": "rect",
+				"ratio": 1
+			},
+			"ext":"https://jihulab.com/happyhome/home/-/raw/main/lib/token.json"
+		},
         {
             "key": "直播转点播",
             "name": "📺┃直播转点播┃",
