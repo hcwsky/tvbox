@@ -80,7 +80,7 @@
             "filterable": 1,
             "changeable": 0,
             "ext": "http://127.0.0.1:9978/file/tvbox/tok.txt+auto|4k|fhd$$$https://api.wogg.xyz/$$$弹",
-            "jar": "https://jihulab.com/happyhome/home/-/raw/main/lib/fty.jar;md5;ea2690fc66083afe1431071968e60395"
+            "jar": "https://jihulab.com/happyhome/home/-/raw/main/lib/fty.jar;md5;be6121b5c37471b191114027123912d2"
         },
         {
             "key": "PG玩偶弹幕版",
@@ -261,7 +261,7 @@
             "name": "🔱┃一起看APP┃",
             "type": 3,
             "api": "csp_YQKan",
-            "jar": "https://jihulab.com/happyhome/home/-/raw/main/lib/fty.jar;md5;ea2690fc66083afe1431071968e60395",
+            "jar": "https://jihulab.com/happyhome/home/-/raw/main/lib/fty.jar;md5;be6121b5c37471b191114027123912d2",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -377,7 +377,7 @@
             "name": "🔱┃毛 驴┃",
             "type": 3,
             "api": "csp_MLYS",
-            "jar": "https://jihulab.com/happyhome/home/-/raw/main/lib/fty.jar;md5;ea2690fc66083afe1431071968e60395",
+            "jar": "https://jihulab.com/happyhome/home/-/raw/main/lib/fty.jar;md5;be6121b5c37471b191114027123912d2",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
@@ -391,7 +391,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://jihulab.com/happyhome/home/-/raw/main/lib/fty.jar;md5;ea2690fc66083afe1431071968e60395",
+            "jar": "https://jihulab.com/happyhome/home/-/raw/main/lib/fty.jar;md5;be6121b5c37471b191114027123912d2",
             "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/json/nmys.json"
         },
         {
@@ -399,7 +399,7 @@
             "name": "🔱┃厂 长┃",
             "type": 3,
             "api": "csp_Czsapp",
-            "jar": "https://jihulab.com/happyhome/home/-/raw/main/lib/fty.jar;md5;ea2690fc66083afe1431071968e60395",
+            "jar": "https://jihulab.com/happyhome/home/-/raw/main/lib/fty.jar;md5;be6121b5c37471b191114027123912d2",
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
@@ -500,7 +500,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://jihulab.com/happyhome/home/-/raw/main/lib/fty.jar;md5;ea2690fc66083afe1431071968e60395",
+            "jar": "https://jihulab.com/happyhome/home/-/raw/main/lib/fty.jar;md5;be6121b5c37471b191114027123912d2",
             "ext": "FbjDcUxPqpfNr0QF4QvE6sExbcpBF4MRDm4TvbCzxUxQS9bPrS+dwlqC+K21Byi2fnbN32ExknwkTyVnT4ZkO1NUAJnYhg/LOWYSnzESguc1X7n/JQ1wPh7lInAdzJ2qxzb2fKg8RZczmhg8lF/+BAMaZaqxv0MMB5dPInMBPwir"
         },
         {
