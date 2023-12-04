@@ -79,7 +79,7 @@
             "changeable": 1,
             "filterable": 1,
             "changeable": 0,
-            "ext": "http://127.0.0.1:9978/file/tvbox/tok.txt+auto|4k|fhd$$$https://api.wogg.xyz/$$$弹",
+            "ext": "http://127.0.0.1:9978/file/tvbox/tok.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹",
             "jar": "https://jihulab.com/happyhome/home/-/raw/main/lib/fty.jar;md5;be6121b5c37471b191114027123912d2"
         },
         {
