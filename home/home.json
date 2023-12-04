@@ -28,19 +28,16 @@
             "type": 3,
             "api": "csp_Local"
         },
-     	{
-			"key": "配置中心",
-			"name": "🚧配置中心",
-			"type": 3,
-			"api": "csp_Config",
-			"searchable": 0,
-			"changeable": 0,
-			"style": {
-				"type": "rect",
-				"ratio": 1
-			},
-			"ext":"https://jihulab.com/happyhome/home/-/raw/main/lib/token.json"
-		},
+        {
+            "key": "TOKEN设置",
+            "name": "🚧┃TOKEN设置┃",
+            "type": 3,
+            "api": "csp_KungFu404",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "jar": "https://jihulab.com/happyhome/home/-/raw/main/lib/alibaba.jar;md5;332d0e5a28640ee88589390ad4a23a39"
+        },
         {
             "key": "直播转点播",
             "name": "📺┃直播转点播┃",
@@ -82,7 +79,7 @@
             "changeable": 1,
             "filterable": 1,
             "changeable": 0,
-            "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+auto|4k|fhd$$$https://api.wogg.xyz/$$$弹",
+            "ext": "http://127.0.0.1:9978/file/tvbox/tok.txt+auto|4k|fhd$$$https://api.wogg.xyz/$$$弹",
             "jar": "https://jihulab.com/happyhome/home/-/raw/main/lib/fty.jar;md5;ea2690fc66083afe1431071968e60395"
         },
         {
