@@ -658,14 +658,6 @@
             ]
         },
         {
-            "key": "555影视",
-            "name": "🔱┃555影视┃",
-            "type": 3,
-            "api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/555dy_open.js",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "大米星球[V2]",
             "name": "🔱┃大米星球┃",
             "type": 3,
@@ -734,7 +726,6 @@
             "type": 1,
             "api": "https://www.tangrenjie.tv/api.php/provide/vod/",
             "searchable": 0,
-            "quickSearch": 1,
             "changeable": 1
         },
         {
@@ -742,7 +733,7 @@
             "name": "🚀┃獨播海外┃",
             "type": 3,
             "api": "csp_XPathMacFilter",
-            "searchable": 1,
+            "searchable": 0,
             "changeable": 1,
             "ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/duboku.json"
         },
@@ -751,7 +742,7 @@
             "name": "🚀┃泥巴海外┃",
             "type": 3,
             "api": "csp_NiNi",
-            "searchable": 1,
+            "searchable": 0,
             "changeable": 1
         },
         {
@@ -759,7 +750,7 @@
             "name": "🚀┃星星海外┃",
             "type": 3,
             "api": "csp_Star",
-            "searchable": 1,
+            "searchable": 0,
             "changeable": 1
         },
         {
@@ -782,6 +773,7 @@
             "key": "易搜",
             "name": "🔎┃阿里易搜┃",
             "type": 3,
+            "searchable": 1,
             "api": "csp_YiSo",
             "ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/token.json$$$__51vcke__JkIGvjjs25ETn0wz=5ac42a7e-156c-5f0a-a181-db972f758a12; __51vuft__JkIGvjjs25ETn0wz=1686617642681; __51uvsct__JkIGvjjs25ETn0wz=2; JSESSIONID=FEAFA3BD405267C378C2455FBAD4A704; satoken=0f065aaa-1b6b-4b9b-9910-83a67fb14da2; __vtins__JkIGvjjs25ETn0wz=%7B%22sid%22%3A%20%22d1f6816b-4047-5382-8777-ef255cdad26f%22%2C%20%22vd%22%3A%203%2C%20%22stt%22%3A%2018544%2C%20%22dr%22%3A%2013746%2C%20%22expires%22%3A%201690127812799%2C%20%22ct%22%3A%201690126012799%7D"
         },
@@ -789,6 +781,7 @@
             "key": "盘搜",
             "name": "🔎┃阿里盘搜┃",
             "type": 3,
+            "searchable": 1,
             "api": "csp_PanSou",
             "ext": "https://jihulab.com/happyhome/home/-/raw/main/lib/token.json"
         },
@@ -798,7 +791,7 @@
             "type": 3,
             "api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/drpy2.min.js",
             "ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/yyets.js",
-            "quickSearch": 1,
+            "searchable": 1,
             "changeable": 0
         },
         {
@@ -807,8 +800,8 @@
             "type": 3,
             "api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/drpy2.min.js",
             "ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/kkpans.js",
+            "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
             "timeout": 30
         },
         {
@@ -817,8 +810,8 @@
             "type": 3,
             "api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/drpy2.min.js",
             "ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/aipanso.js",
+            "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
             "timeout": 30
         },
         {
@@ -827,8 +820,8 @@
             "type": 3,
             "api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/drpy2.min.js",
             "ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/funletu.js",
+            "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
             "timeout": 30
         },
         {
@@ -837,8 +830,8 @@
             "type": 3,
             "api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/drpy2.min.js",
             "ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/meow.js",
+            "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
             "timeout": 30
         },
         {
@@ -876,6 +869,8 @@
             "name": "🔱┃葡萄短剧┃",
             "type": 3,
             "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
             "jar": "./jar/hccx.jar",
             "ext": {
                 "数组": "class=\"stui-vodlist__box&&</li",
@@ -887,9 +882,6 @@
             "key": "justlive",
             "name": "🎮┃直播合集┃",
             "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
             "playerType": 1,
             "api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/drpy2.min.js",
             "ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/justlive.js"
@@ -933,8 +925,6 @@
             "name": "🅱️┃哔哩合集┃",
             "type": 3,
             "api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/drpy2.min.js",
-            "searchable": 0,
-            "changeable": 0,
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -950,7 +940,6 @@
                 "type": "rect",
                 "ratio": 1.597
             },
-            "changeable": 0,
             "ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/哔哩直播.js"
         },
         {
@@ -962,7 +951,6 @@
                 "type": "rect",
                 "ratio": 1.597
             },
-            "changeable": 0,
             "ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/哔哩影视.js"
         },
         {
@@ -970,8 +958,6 @@
             "name": "🅱️┃哔哩OPEN┃",
             "type": 3,
             "api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/bili_open.js",
-            "searchable": 1,
-            "changeable": 0,
             "ext": {
                 "categories": "热门#短剧#软件教程#同步课堂#实用教程#美食#健身#瑜伽#闽剧#越剧#相声小品#知名UP主#听书#沙雕动画#沙雕穿越#沙雕",
                 "cookie": "DedeUserID=514459325; DedeUserID__ckMd5=71f7f2b9d8869ea2; SESSDATA=99270eae%2C1710156590%2C2d487%2A92CjD8C8U7Lus5OrlA4FBwJW5Yhwjlhy3k7Tjlnr9Ayop2pzs0K7lSQAswtmwtEjz_sxkSVkJJWktsLURlYXYyVGszdjdOS3pzWnEtTlNIWm9NQ2gza0ZySEEwdnN4UmRDX0JqbE5QY1VORkdOYnlBVXZJVkJUTVJaYml1ZmQxWTFNNlB5ZGFjdGtnIIEC; bili_jct=e4f1163ae525efcab835a2cad8174d65;"
@@ -982,8 +968,6 @@
             "name": "🅱️┃哔哩幼儿┃",
             "type": 3,
             "api": "csp_Bili",
-            "searchable": 1,
-            "changeable": 0,
             "ext": {
                 "json": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/幼儿乐园.json",
                 "cookie": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/cookie.txt"
@@ -994,8 +978,6 @@
             "name": "🅱️┃哔哩少儿┃",
             "type": 3,
             "api": "csp_Bili",
-            "searchable": 1,
-            "changeable": 0,
             "ext": {
                 "json": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/少儿教育.json",
                 "cookie": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/cookie.txt"
@@ -1006,8 +988,6 @@
             "name": "🅱️┃哔哩小学┃",
             "type": 3,
             "api": "csp_Bili",
-            "searchable": 1,
-            "changeable": 0,
             "ext": {
                 "json": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/小学课堂.json",
                 "cookie": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/cookie.txt"
@@ -1018,8 +998,6 @@
             "name": "🅱️┃哔哩初中┃",
             "type": 3,
             "api": "csp_Bili",
-            "searchable": 1,
-            "changeable": 0,
             "ext": {
                 "json": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/初中课堂.json",
                 "cookie": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/cookie.txt"
@@ -1030,8 +1008,6 @@
             "name": "🅱️┃哔哩高中┃",
             "type": 3,
             "api": "csp_Bili",
-            "searchable": 1,
-            "changeable": 0,
             "ext": {
                 "json": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/高中课堂.json",
                 "cookie": "https://mirror.ghproxy.com/raw.githubusercontent.com/hcwsky/tvbox/main/home/lib/cookie.txt"
